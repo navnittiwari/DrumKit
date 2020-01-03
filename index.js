@@ -45,8 +45,8 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
   });
 }
 
-document.addEventListener("keydown", function(){
-  alert("key was pressed");
+document.addEventListener("keydown", function(event){
+  console.log(event);
 });
 
 // var audio=new Audio('sounds/tom-1.mp3');
